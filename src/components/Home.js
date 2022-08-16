@@ -69,7 +69,7 @@ export const Home = () => {
     //     </div>
     // </div>
     <div className='z-10'>
-        <section className="mb-40 h-full">
+        <section className="mb-40 h-full" id='Home'>
         <div className="px-6 py-24 md:px-12 lg:pt-32 text-gray-800 text-center lg:text-left">
             <div className="container mx-auto xl:px-32">
                 <div className="grid lg:grid-cols-2 gap-12 flex items-center">
