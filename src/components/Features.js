@@ -45,7 +45,7 @@ export const Features = () => {
     <div className='w-[full] h-full py-7 pb-24 bg-blue-50' id='Features'>
         <div className='max-w-[1200px] mx-auto w-[90%] mt-10'>
             <div class="text-center lg:max-w-3xl md:max-w-xl mx-auto">
-                <h2 class="text-3xl font-bold mb-12 px-6 pt-10 text-gray-700">Features</h2>
+                <h2 class="text-3xl font-bold mb-12 px-6 pt-10 text-gray-700" data-aos="fade-up">Features</h2>
             </div>
             <div className='grid gap-x-6 gap-y-8 lg:grid-cols-2 lg:grid-row-2 md:grid-cols-1 md:grid-row-1 grid-cols-1 grid-row-1' >
                 {cardObj.map((obj, i) => (<Card icon={obj.icon} title={obj.title} desc={obj.desc} key={i}/>))}

@@ -14,9 +14,9 @@ export const Contact = () => {
 
     <div class="flex flex-wrap">
       <div class="grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-5/12">
-        <img src={mockup} alt=""/>
+        <img src={mockup} alt="" data-aos='fade-right' data-aos-duration="600"/>
       </div>
-      <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
+      <div class="grow-0 shrink-0 basis-auto w-full lg:w-7/12" data-aos='zoom-in' data-aos-duration="600">
         <div class="flex flex-wrap">
           <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
             <div class="flex items-start">
@@ -31,7 +31,7 @@ export const Contact = () => {
               </div>
             </div>
           </div>
-          <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+          <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6" data-aos='zoom-in' data-aos-duration="900">
             <div class="flex items-start">
               <div class="shrink-0">
                 <div class="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
@@ -44,7 +44,7 @@ export const Contact = () => {
               </div>
             </div>
           </div>
-          <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+          <div class="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6" data-aos='zoom-in' data-aos-duration="1200">
             <div class="flex align-start">
               <div class="shrink-0">
                 <div class="p-4 bg-blue-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">

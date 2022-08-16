@@ -12,9 +12,9 @@ export const Affiliates = () => {
     ];
 
   return (
-    <div className='flex flex-wrap w-full h-full bg-blue-50 mx-auto items-center justify-center md:space-x-20 p-10'>
+    <div className='flex flex-wrap w-full h-full bg-blue-50 mx-auto items-center justify-center md:space-x-20 p-10 space-y-5' data-aos='fade-down' data-aos-duration="600">
         {logos.map((logo, i) => (
-            <img key={i} src={logo} className='w-[150px]'/>
+            <img key={i} src={logo} className='w-[150px]' />
         ))}
     </div>
   )
