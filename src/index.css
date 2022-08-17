@@ -42,3 +42,13 @@ a {
     left: 0;
     background: rgb(83, 83, 247);
 }
+
+@layer components {
+    .activeLink {
+        color: rgb(83, 83, 247);
+        border-bottom: 2px solid rgb(83, 83, 247);
+        padding-bottom: 6px;
+        
+        transition: all ease .3s;
+    }
+}
