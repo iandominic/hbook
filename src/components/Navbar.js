@@ -34,7 +34,7 @@ export const Navbar = () => {
 
   return (
     <div className={shadow ? 'bg-white drop-shadow-md z-50 fixed w-full' : 'bg-white z-50 fixed w-full'}>
-       <nav className='flex items-center justify-between max-w-[1340px] px-4 mx-auto' >
+       <nav className={shadow ? 'flex items-center justify-between max-w-[1340px] px-4 mx-auto h-[4.5rem] transition-all ease-in duration-200' : 'flex items-center justify-between max-w-[1340px] px-4 mx-auto h-[6rem] transition-all ease-in duration-200'}>
         <Scroll to="Home" smooth={true} duration={300}><img src={homebookLogo} className='w-20 cursor-pointer' alt='' data-aos='fade-down' data-aos-duration="500"/></Scroll>
             <ul className='hidden md:flex text-blue-900 space-x-8 tracking-light text-sm items-center uppercase'>
                 <li id='navlink' data-aos='fade-down' data-aos-duration="600"><a href='#'><Scroll to="Home" smooth={true} duration={300}>Home</Scroll></a></li>
