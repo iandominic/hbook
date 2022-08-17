@@ -4,7 +4,7 @@ import {Link as Scroll} from 'react-scroll';
 export const Footer = () => {
   return (
     <div className='w-full h-full mx-auto bg-blue-100 py-12 md:py-6 relative'>
-      <div className='flex flex-wrap gap-10 md:flex-row text-left h-full w-[90%] mx-auto max-w-[1340px] p-5 text-gray-800'>
+      <div className='flex flex-wrap gap-10 md:flex-row text-left h-full w-[90%] mx-auto max-w-[1340px] p-5 pb-14 text-gray-800'>
         <div className='flex flex-col lg:max-w-[20%]'>
           <h1 className='text-4xl pb-3 font-light'>
             HOMEBOOK
@@ -42,7 +42,7 @@ export const Footer = () => {
           </p>
         </div>
       </div>
-      <div className='bg-blue-200 p-5 absolute bottom-[-50px] right-0 left-0 text-center'>
+      <div className='bg-blue-200 p-5 absolute bottom-[0] right-0 left-0 text-center'>
         © Copyright HomeBook. All Rights Reserved
       </div>
     </div>

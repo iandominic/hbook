@@ -32,12 +32,12 @@ export const Features = () => {
         },
         {
             icon: historyicon,
-            title: "Transaction History",
+            title: "Emergency Hotlines",
             desc: "You can reach emergency hotlines in your area of property"
         },
         {
             icon: olpaymenticon,
-            title: "Manage Properties",
+            title: "Transaction History",
             desc: "You can track back your transaction history"
         }
     ]

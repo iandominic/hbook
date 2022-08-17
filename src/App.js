@@ -19,7 +19,7 @@ function App() {
   },[]);
 
   return (
-    <>
+    <div className='overflow-hidden'>
       <Modal />
       <Navbar />
       <Home />
@@ -28,7 +28,7 @@ function App() {
       <Features />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 
