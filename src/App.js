@@ -9,6 +9,7 @@ import { Modal } from './components/Modal';
 import { Footer } from './components/Footer';
 import aos from 'aos';
 import 'aos/dist/aos.css';
+import Pricing from './components/Pricing';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <Affiliates />
       <About />
       <Features />
+      <Pricing />
       <Contact />
       <Footer />
     </div>

@@ -13,10 +13,7 @@ export const About = () => {
               About HomeBook
             </h1>
             <p className='font-light'>
-              Homebook is an online platform for managing owned properties, generation of billing statements, online payment easily and conveniently and other property services. It is open for all subdivisions, associations and other real estate organizations. 
-            </p>
-            <p  className='font-light'>
-            The function of the Village - Community Management System involves the generation of billing statements of the community which will come from the association who is responsible for managing the village. The user/member can pay his/her bill online/in-app. The system also contains all the properties owned by the member in which its association must be registered in order for it to be viewable.
+              The function of the Village - Community Management System involves the generation of billing statements of the community which will come from the association who is responsible for managing the village. The user/member can pay his/her bill online/in-app. The system also contains all the properties owned by the member in which its association must be registered in order for it to be viewable.
             </p>
           </div>
           <img src={meeting} className='p-10 max-w-[600px] lg:w-[600px] md:w-[400px]' alt=""  data-aos='fade'  data-aos-delay="100"/>

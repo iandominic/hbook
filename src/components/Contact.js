@@ -4,14 +4,13 @@ import { MailFilled, PhoneFilled, HomeFilled } from '@ant-design/icons'
 
 export const Contact = () => {
   return (
-<div class="container py-6 mt-10 px-6 mx-auto  max-w-[1340px]">
+<div class="container py-6 mt-10 px-6 mx-auto max-w-[1340px]">
   <section class="mb-32 text-gray-800">
       <div class="flex justify-center">
         <div class="text-center lg:max-w-3xl md:max-w-xl">
           <h2 class="text-3xl font-bold mb-12 pt-10 px-6 text-gray-700">Contact us</h2>
         </div>
       </div>
-
       <div class="flex flex-wrap">
         <div class="grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-5/12">
           <img src={mockup} alt="" data-aos='fade-right' data-aos-duration="600"/>
